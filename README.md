@@ -16,7 +16,7 @@ The following instructions will create a private BusTub that you can use for you
 1. Go to [https://github.com/new](https://github.com/new) to create a new repo under your account. Pick a name (e.g. `private-bustub`) and make sure it is you select it as **private**.
 2. On your development machine, clone the public BusTub:
    ```
-   $ git clone --depth 1 https://github.com/cmu-db/bustub.git public-bustub
+   $ git clone --depth 1 https://github.com/CappellaStudio/bustub public-bustub
    ```
 3. You next need to [mirror](https://git-scm.com/docs/git-push#Documentation/git-push.txt---mirror) the public BusTub repo into your own private BusTub repo. Suppose your GitHub name is `student` and your repo name is `private-bustub`, you will execute the following commands:
    ```
@@ -34,7 +34,7 @@ The following instructions will create a private BusTub that you can use for you
    ```
 5. Add the public BusTub as a remote source. This will allow you to retrieve changes from the CMU-DB repository during the semester:
    ```
-   $ git remote add public https://github.com/cmu-db/bustub.git
+   $ git remote add public https://github.com/CappellaStudio/bustub
    ```
 6. You can now pull in changes from the public BusTub as needed:
    ```
